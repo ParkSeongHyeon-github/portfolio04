@@ -1,0 +1,137 @@
+#StoreList{margin:30px auto;width:1200px}
+#StoreList h2{font-size:20px;font-weight:600}
+#StoreList .cate-wrap{display:flex;gap:20px;margin-top:20px}
+#StoreList .cate-wrap > div a{display:flex;flex-direction:column;align-items:center;gap:7px}
+#StoreList .cate-wrap > div a h3{font-size:15px;font-weight:500}
+#StoreList .cate-wrap > div a h3.on{color:var(--primary)}
+#StoreList .item-wrap{display:grid;grid-template-columns:repeat(4, 1fr);row-gap:60px;column-gap:20px;margin-top:60px}
+#StoreList .item-wrap div img{width:100%;height:280px;object-fit:cover;border-radius:8px}
+#StoreList .item-wrap div h3{margin:15px 0 5px;font-size:15px}
+#StoreList .item-wrap div .price{display:flex;align-items:center;gap:5px;font-size:20px;font-weight:600}
+#StoreList .item-wrap div .price span{color:var(--primary);font-size:18px}
+#StoreList .item-wrap div .delivery{margin-top:10px;padding:8px 12px;width:max-content;font-size:12px;border-radius:4px;background-color:#f5f5f5}
+#StoreList .pagination{display:flex;justify-content:center;gap:8px;margin:30px 0;padding-bottom:60px}
+#StoreList .pagination button{width:28px;height:28px;border:1px solid #e1e1e1;border-radius:3px;background-color:#f5f5f5}
+#StoreList .pagination button.active {font-weight:bold;background:#000;color:#fff}
+
+#StoreView {margin:50px auto;width:1200px}
+#StoreView .top{display:flex;gap:50px}
+#StoreView .top .left, #StoreView .top .right{width:50%}
+#StoreView .top .left img{width:100%;height:600px;object-fit:cover;border-radius:10px}
+#StoreView .top .right .cate a{font-size:14px;font-weight:600;color:#666}
+#StoreView .top .right h2{margin:10px 0 20px;font-size:21px}
+#StoreView .top .right .discount{display:flex;align-items:center;gap:10px}
+#StoreView .top .right .discount span:first-child{font-size:16px;color:#828C94}
+#StoreView .top .right .discount span:last-child{position:relative;font-size:16px;color:#C2C8CC}
+#StoreView .top .right .discount span:last-child:after{content:"";position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);width:110%;height:0.5px;background-color:#C2C8CC}
+#StoreView .top .right .price{line-height:1.5;font-size:32px;font-weight:700;color:#2F3438}
+#StoreView .top .right .delivery{display:flex;align-items:flex-start;gap:15px;margin-top:20px;padding-bottom:50px;border-bottom:1px solid #e1e1e1}
+#StoreView .top .right .delivery span{line-height:1.5;font-size:14px;color:#828C94}
+#StoreView .top .right .delivery li{line-height:1.5;font-size:14px;color:#2F3438}
+#StoreView .top .right .delivery li:first-child{font-weight:700}
+#StoreView .top .right .delivery li:last-child{color:#828C94}
+#StoreView .top .right .option{display:flex;flex-direction:column;gap:15px;margin-top:30px}
+#StoreView .top .right .option > div{position:relative}
+#StoreView .top .right .option .select-arrow{display:inline-block;line-height:1;position:absolute;top:14px;right:13px;color:#828C94}
+#StoreView .top .right .option .select-arrow:after{content:url("/img/select_arrow.png")}
+#StoreView .top .right .option select{display:inline-block;margin:0;padding:0;border:none;background:none;font-size:16px;line-height:20px;position:relative;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;appearance:none;width:100%;height:40px;border-radius:4px;border:1px solid #E6E6E6;color:#2F3438;padding-left:13px;padding-right:37px}
+#StoreView .top .right .option select option span{margin-left:auto}
+#StoreView .top .right .select-option{display:flex;flex-direction:column;gap:15px}
+#StoreView .top .right .select-option p{font-size:14px;color:rgb(47, 52, 56)}
+#StoreView .top .right .select-option > div{position:relative;padding:15px;background-color:#f5f5f5}
+#StoreView .top .right .select-option .x-btn{position:absolute;z-index:2;top:15px;right:15px;border:none;background-color:transparent;color:rgb(47, 52, 56)}
+#StoreView .top .right .option-btn-wrap{display:flex;justify-content:space-between;align-items:center;margin-top:30px}
+#StoreView .top .right .qu{display:flex;align-items:center;border:1px solid #e1e1e1}
+#StoreView .top .right .qu button, #StoreView .top .right .qu div{display:flex;justify-content:center;align-items:center;width:28px;height:28px;border:none;background-color:#fff}
+#StoreView .top .right .option-price{font-size:16px;font-weight:600;color:rgb(47, 52, 56)}
+
+#StoreView .top .right .totalPrice{display:flex;justify-content:space-between;margin-top:30px;font-size:14px;font-weight:700;color:#2F3438}
+#StoreView .top .right .totalPrice span{font-size:20px}
+#StoreView .top .right .btn-wrap{display:flex;align-items:center;gap:15px;margin-top:50px}
+#StoreView .top .right .btn-wrap li{width:100%}
+#StoreView .top .right .btn-wrap li button{width:100%;height:50px;border:none;border-radius:5px;font-size:16px;font-weight:600}
+#StoreView .top .right .btn-wrap li.cart button{border:2px solid var(--primary);color:var(--primary);background-color:transparent}
+#StoreView .top .right .btn-wrap li:last-child button{color:#fff;background-color:var(--primary)}
+#StoreView .bottom{margin-top:60px}
+#StoreView .nav{position:relative;display:flex}
+#StoreView .bottom .bg{position:absolute;top:0px;left:50%;transform:translateX(-50%);width:calc(-15px + 100vw);height:100%;border-top:1px solid rgb(234, 237, 239);border-bottom:1px solid rgb(234, 237, 239);z-index:-1;background-color:rgb(247, 249, 250)}
+#StoreView .bottom .nav .item{padding:20px 40px;font-size:15px;font-weight:600;border-bottom:2px solid var(--primary);color:var(--primary)}
+#StoreView .bottom .content{display:flex;justify-content:center;margin-top:60px}
+
+.modal{position:fixed;z-index:99;top:0px;right:0px;width:100%;height:100%;background-color:rgb(0, 0, 0, 0.5)}
+.close-btn{position:absolute;top:20px;right:20px;border:none;background-color:transparent}
+.modal-content{overflow-y:scroll;position:absolute;top:50%;left:50%;padding:30px;width:400px;height:800px;transform:translate(-50% ,-50%);border-radius:10px;background-color:#fff}
+.modal-content::-webkit-scrollbar{display:none}
+.modal-content h3{font-size:18px;font-weight:600;margin:30px 0}
+.modal-content .item{width:100%}
+.modal-content .item + .item{margin-top:10px}
+.modal-content .item input{padding:12px;width:100%;border:1px solid #e1e1e1;border-radius:5px;color:#666}
+.modal-content .input-wrap{display:flex;flex-direction:column;gap:5px;margin:30px 0 0;width:100%}
+.modal-content .input-wrap button{height:40px;border:none;border-radius:5px;color:#fff;background-color:var(--primary)}
+.modal-content .input-wrap input{padding:12px;width:100%;border:1px solid #e1e1e1;border-radius:5px;color:#666}
+.modal-content .price{padding-top:30px;border-top:1px solid #e1e1e1;width:100%}
+.modal-content .price li{display:flex;justify-content:space-between;align-items:center;font-size:18px;font-weight:600}
+.modal-content .price li span{font-size:15px;font-weight:500}
+.modal-content .price li + li{margin-top:10px}
+.modal-content .submit-btn{margin-top:40px;width:100%;min-height:55px;border:none;font-size:16px;font-weight:700;border-radius:5px;color:#fff;background-color:var(--primary)}
+.modal-content .option{margin:30px 0;width:100%}
+.modal-content .option li{padding:20px 15px;border-radius:5px;background-color:#f5f5f5}
+.modal-content .option li+li{margin-top:10px}
+.modal-content .option li div{display:flex;justify-content:space-between;margin-top:5px}
+.modal-content .option-price{font-weight:600}
+
+/* 반응형 [s] */
+@media (max-width:1200px){
+#StoreList, #StoreView{width:95%}
+}
+@media (max-width:1024px){
+#StoreList h2{font-size:18px}
+#StoreList .item-wrap{grid-template-columns:repeat(3, 1fr)}
+#StoreView .top{gap:30px}
+#StoreView .top .left img{height:500px}
+#StoreView .top .right .cate a{font-size:13px}
+#StoreView .top .right h2{margin:8px 0 16px;font-size:18px}
+#StoreView .top .right .discount span:first-child{font-size:15px}
+#StoreView .top .right .discount span:last-child{font-size:15px}
+#StoreView .top .right .price{font-size:28px}
+#StoreView .top .right .delivery{margin-top:15px;padding-bottom:40px}
+#StoreView .bottom .content img{width:100%}
+}
+@media (max-width:768px){
+#StoreList h2{font-size:16px;text-align:center}
+#StoreList .item-wrap{grid-template-columns:repeat(2, 1fr);gap:15px;margin-top:40px}
+#StoreList .item-wrap div img{height:250px}
+#StoreList .cate-wrap{display:grid;grid-template-columns:repeat(4, 1fr);margin-top:30px}
+#StoreList .cate-wrap img{width:55px}
+#StoreList .cate-wrap > div a h3{font-size:14px}
+#StoreView .top{gap:20px}
+#StoreView .top .left img{height:350px}
+#StoreView .top .right .cate a{font-size:12px}
+#StoreView .top .right h2{font-size:17px}
+#StoreView .top .right .discount span:first-child{font-size:14px}
+#StoreView .top .right .discount span:last-child{font-size:14px}
+#StoreView .top .right .price{font-size:24px}
+#StoreView .top .right .delivery{margin-top:15px;padding-bottom:40px}
+#StoreView .top .right .delivery span{font-size:13px}
+#StoreView .top .right .delivery li{font-size:13px}
+#StoreView .top .right .option select{font-size:14px}
+#StoreView .top .right .select-option p{width:80%}
+#StoreView .top .right .btn-wrap li button{font-size:15px}
+}
+@media (max-width:480px){
+#StoreList .item-wrap{gap:8px}
+#StoreList .item-wrap div h3{text-align:end;font-size:13px}
+#StoreList .item-wrap div img{height:230px}
+#StoreList .item-wrap div .price{justify-content:end;font-size:16px}
+#StoreList .item-wrap div .price span{font-size:14px}
+#StoreList .item-wrap div .delivery{margin-left:auto;padding:6px 10px;font-size:11px}
+#StoreView .top{flex-direction:column}
+#StoreView .top .left img{height:280px}
+#StoreView .top .left, #StoreView .top .right{width:100%}
+#StoreView .top .right{text-align:center}
+#StoreView .top .right .discount{justify-content:center}
+#StoreView .top .right .delivery{flex-direction:column;align-items:center;justify-content:center;gap:0px}
+#StoreView .top .right .select-option p{text-align:start}
+.modal-content{padding:25px;width:370px}
+}
+/* 반응형 [e] */

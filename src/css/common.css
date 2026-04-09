@@ -1,0 +1,110 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');/* regular - 400, medium - 500, semibold - 600, bold - 700 */ 
+
+/* 기본 설정 */
+:root{--main-size:1460px;--k-font:'Pretendard';--primary:#3b82f6;--hover:#2563eb;--background:#0f172a}
+body{height:100vh;font-size:0.81em;font-weight:400;font-family:var(--k-font);word-break:keep-all}
+h1, h2, h3, h4, h5, h6, input, button, textarea, select{font-weight:400;font-family:var(--k-font)}
+a{cursor:pointer}
+.pl{white-space:pre-line;word-break:keep-all}
+
+/* Header [s] */
+header.main{border-bottom:1px solid #e1e1e1}
+#Header{display:flex;justify-content:space-between;align-items:center;margin:auto;max-width:1200px;min-height:90px}
+#Header .logo{font-size:26px;font-weight:700}
+#Header .search{display:flex;align-items:center;gap:10px;position:relative;padding:12px 20px;width:400px;border:1px solid #e1e1e1}
+#Header .search input{border:none;width:100%;font-size:15px}
+#Header .search button{border:none;background-color:transparent}
+#Header .user{display:flex;align-items:center}
+#Header .user li{position:relative;font-size:15px}
+#Header .user li:first-child{margin-right:10px;padding-right:10px}
+#Header .user li:first-child::after{content:"";position:absolute;top:50%;right:0px;transform:translateY(-50%);width:1px;height:70%;background-color:#e1e1e1}
+#Header .user button{border:none;font-size:15px;background-color:transparent}
+
+/* 관리자 페이지 */
+#AdminHeader{position:fixed;max-width:300px;width:100%;max-height:100vh;height:100%;color:#fff;background-color:var(--background)}
+#AdminHeader .logo{padding:30px}
+#AdminHeader .logo a{font-size:24px;font-weight:700;color:#fff}
+#AdminHeader .user{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:8px;padding:35px 30px;background-color:#2e3c54}
+#AdminHeader .user .profile{display:flex;justify-content:center;align-items:center;margin-bottom:10px;width:50px;height:50px;border-radius:50%;background-color:#4b566b}
+#AdminHeader .user .mbId{font-size:17px;font-weight:600}
+#AdminHeader .user .mbName{font-size:15px;font-weight:500;color:rgb(255, 255, 255, 0.7)}
+#AdminHeader .cate{padding:30px}
+#AdminHeader .cate li a{display:flex;align-items:center;gap:10px;font-size:18px;color:rgb(255, 255, 255, 0.7);transition:all .3s}
+#AdminHeader .cate li + li{margin-top:30px}
+#AdminHeader .cate li a:hover{color:#fff}
+#AdminHeader .cate li a span{display:flex;justify-content:center;align-items:center}
+/* Header [e] */
+
+/* Main [s] */
+.admin-page{max-width:calc(100% - 300px);width:100%;max-height:100vh;height:100%;margin-left:auto}
+/* Main [e] */
+
+/* Footer [s] */
+#Footer{background:#f8fafc;border-top:1px solid #e5e7eb}
+#Footer.admin-footer{display:none}
+.footer-inner{max-width:1200px;margin:0 auto;padding:40px 20px}
+.footer-info{margin-bottom:20px}
+.footer-title{font-size:18px;font-weight:600;margin-bottom:10px}
+.footer-tel{font-size:20px;font-weight:700;margin-bottom:8px}
+.footer-time{font-size:14px;color:#555;margin-bottom:10px}
+.footer-desc{font-size:13px;color:#777;margin-bottom:4px}
+.footer-copy{font-size:12px;color:#999;text-align:center;margin-top:20px}
+/* Footer [e] */
+
+/* 반응형 [s] */
+@media (max-width:1200px){
+#Header{padding:0 20px}
+#AdminHeader{max-width:260px}
+}
+@media (max-width:1024px){
+#Header .search{width:300px}
+#Header .logo{font-size:22px}
+#AdminHeader{position:relative;max-width:100%;display:flex;justify-content:space-between;padding:20px 2.5%}
+#AdminHeader .logo{padding:0px}
+#AdminHeader .logo a{font-size:18px}
+#AdminHeader .user{display:none}
+#AdminHeader .cate{display:flex;align-items:center;gap:20px;padding:0px}
+#AdminHeader .cate li + li{margin-top:0px}
+#AdminHeader .cate li a{font-size:15px;gap:5px}
+#AdminHeader .cate li a svg{width:18px}
+.admin-page{max-width:100%}
+.footer-inner{padding:30px 20px}
+.footer-title{font-size:17px}
+.footer-tel{font-size:18px}
+.footer-time{font-size:13px}
+.footer-desc{font-size:12px}
+}
+@media (max-width:768px){
+#Header{flex-wrap:wrap;gap:10px;padding:10px 15px}
+#Header .logo{width:100%;text-align:center}
+#Header .search{order:3;width:100%}
+#Header .user{order:2;width:100%;justify-content:flex-end}
+#Header .user li{font-size:14px}
+#Header .user li button{font-size:14px}
+.footer-inner{padding:25px 15px}
+.footer-info{margin-bottom:15px}
+.footer-title{font-size:16px}
+.footer-tel{font-size:17px}
+.footer-time{font-size:13px}
+.footer-desc{font-size:12px}
+.footer-copy{font-size:11px}
+}
+@media (max-width:480px){
+#Header{min-height:auto;padding:10px}
+#Header .search{padding:10px 15px}
+#Header .search input{font-size:14px}
+#Header .logo{font-size:20px}
+#Header .user li{font-size:13px}
+#Header .user li:first-child{margin-right:6px;padding-right:6px}
+#Header .user li button{font-size:13px}
+#AdminHeader .cate{gap:15px}
+#AdminHeader .cate li a{font-size:14px}
+#AdminHeader .cate li a svg{width:16px}
+.footer-inner{padding:20px 12px}
+.footer-title{font-size:15px}
+.footer-tel{font-size:16px}
+.footer-time{font-size:12px}
+.footer-desc{font-size:11px}
+.footer-copy{font-size:10px}
+}
+/* 반응형 [e] */

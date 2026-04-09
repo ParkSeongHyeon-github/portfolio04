@@ -1,0 +1,57 @@
+.search-head{position:relative;display:grid;grid-template-columns:repeat(2, 1fr);margin:0 2.5% 50px 2.5%;border:1px solid #e1e1e1}
+.search-head .item{position:relative;display:flex;border-top:1px solid #e1e1e1}
+.search-head .item.btn-wrap{align-items:center;gap:12px}
+.search-head label{display:flex;justify-content:center;align-items:center;padding:20px 0;min-width:170px;text-align:center;font-size:15px;font-weight:500;background-color:#f5f5f5}
+.search-head select{margin:12px;padding:12px;width:100%;height:45px;border:1px solid #e1e1e1;font-size:14px;color:#666}
+.search-head input{margin:12px;padding:12px;width:100%;border:1px solid #e1e1e1;font-size:14px;color:#666}
+.search-submit-btn{margin:auto 0;width:170px;height:55px;font-size:14px;border:none;color:#fff;background-color:var(--primary);transition:all .3s}
+.search-submit-btn:hover{background-color:var(--hover)}
+.list .search{display:flex;align-items:center;gap:8px;margin:0 2.5% 30px auto;width:max-content}
+.list .search-wrap{position:relative}
+.list .search-wrap input{padding:12px;width:270px;height:45px;border:1px solid #e1e1e1;font-size:15px}
+.list .search-wrap button{position:absolute;top:50%;right:10px;transform:translateY(-50%);border:none;background-color:transparent}
+.list .refresh-btn{display:flex;justify-content:center;align-items:center;width:45px;height:45px;border:1px solid #e1e1e1;background-color:transparent}
+.list h1{padding:60px 0 30px;margin:auto;width:95%;font-size:25px;font-weight:700}
+.list table{margin:auto;width:95%;border-collapse:collapse;border-top:1px solid #111}
+.list thead th{height:60px;font-size:15px}
+.list thead th.number{width:100px}
+.list thead th.name{width:200px}
+.list thead th.cate{width:350px}
+.list thead th.edit{width:150px}
+.list tbody{border-top:1px solid #e1e1e1}
+.list tbody > tr{border-top:1px solid #e1e1e1}
+.list tbody > tr > td{padding:20px 0}
+.list tbody > tr > .link-td{font-weight:600;cursor:pointer}
+.list tbody > tr > .link-td a{display:flex;flex-direction:column;gap:7px}
+.list tbody td{padding:10px 0;text-align:center;font-size:15px;line-height:1.5}
+.list tbody td.sub{font-weight:600}
+.list tbody td.category{padding:20px 10px}
+.list tbody .edit-wrap ul{display:flex;justify-content:center;align-items:center;gap:8px}
+.list tbody .edit-wrap ul li a, .list tbody .edit-wrap ul li button{display:flex;justify-content:center;align-items:center;width:70px;height:40px;border:none;border-radius:4px;font-size:14px}
+.list tbody .edit-wrap ul li a{color:#fff;background-color:var(--primary);transition:all .3s}
+.list tbody .edit-wrap ul li a:hover{background-color:var(--hover)}
+.list tbody .edit-wrap ul li button{color:#fff;background-color:var(--background)}
+.list .pagination{display:flex;justify-content:center;gap:8px;margin:30px 0;padding-bottom:60px}
+.list .pagination button{width:28px;height:28px;border:1px solid #e1e1e1;border-radius:3px;background-color:#f5f5f5}
+.list .pagination button.active {font-weight:bold;background:#000;color:#fff}
+.list .admin-btn a{display:flex;justify-content:center;align-items:center;margin-left:2.5%;margin-top:30px;width:180px;height:58px;border-radius:5px;font-size:15px;font-weight:500;color:#fff;background-color:var(--primary);transition:all .3s}
+.list .admin-btn a:hover{background-color:var(--hover)}
+
+
+/* 반응형 [s] */
+@media (max-width:1024px){
+.search-head{grid-template-columns:1fr;margin:0 2.5% 40px 2.5%}
+.search-head label{min-width:140px;font-size:14px}
+.search-submit-btn{width:140px;height:50px}
+.list .refresh-btn{width:40px;height:40px}
+.list h1{font-size:23px;padding:50px 0 25px}
+.list .table-wrap{overflow-x:auto;margin:auto;width:95%}
+.list table{min-width:1000px}
+.list thead th{font-size:14px}
+.list thead th.cate{width:80px}
+.list tbody td{font-size:14px}
+.list thead th.number{width:20px}
+#CategoryList tbody td.sub{width:80px !important}
+#CategoryList thead th.cate{width:250px !important}
+}
+/* 반응형 [e] */

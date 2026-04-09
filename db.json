@@ -1,0 +1,696 @@
+{
+  "member": [
+    {
+      "id": "e353",
+      "memberId": "admin",
+      "memberPw": "a1234",
+      "memberEmail": "admin@admin.com",
+      "memberName": "관리자",
+      "memberPhone": "01011112222",
+      "memberLevel": 10
+    },
+    {
+      "id": "1dcc",
+      "memberId": "test",
+      "memberPw": "a1234",
+      "memberEmail": "test@test.com",
+      "memberName": "테스트",
+      "memberPhone": "01012345678",
+      "memberLevel": 2
+    }
+  ],
+  "category": [
+    {
+      "id": "8364",
+      "menu": "상품등록",
+      "category": [
+        "가구",
+        "패브릭",
+        "가전·디지털",
+        "주방용품",
+        "데코·식물",
+        "조명",
+        "수납·정리"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "seller": "상점관리자",
+      "category": "가전·디지털",
+      "subject": "뉴오비큠 무선청소기",
+      "cost": "299000",
+      "price": "259000",
+      "delivery": "무료배송",
+      "content": "",
+      "contentImage": "뉴오비큠 무선청소기_상세이미지.jpg",
+      "option": [
+        {
+          "optionCate": "색상",
+          "optionVal": [
+            {
+              "optionName": "스노우화이트",
+              "optionPrice": 259000
+            },
+            {
+              "optionName": "마시멜로우",
+              "optionPrice": 259000
+            }
+          ]
+        },
+        {
+          "optionCate": "추가상품 (선택)",
+          "optionVal": [
+            {
+              "optionName": "이중 박스포장",
+              "optionPrice": 1000
+            },
+            {
+              "optionName": "이지 롱 노즐",
+              "optionPrice": 30000
+            },
+            {
+              "optionName": "이지 롱 노즐 + 펫큠 셋트",
+              "optionPrice": 86000
+            }
+          ]
+        }
+      ],
+      "id": "6UBmH7r",
+      "Image": [
+        "뉴오비큠 무선청소기01.jpg",
+        "뉴오비큠 무선청소기03.jpg",
+        "뉴오비큠 무선청소기02.jpg",
+        "뉴오비큠 무선청소기04.jpg"
+      ]
+    },
+    {
+      "category": "가전·디지털",
+      "subject": "오비큠 워터 물걸레청소기",
+      "cost": "299000",
+      "price": "259000",
+      "delivery": "무료배송",
+      "content": "",
+      "contentImage": "오비큠 워터 물걸레청소기_상세이미지.jpg",
+      "Image": [
+        "오비큠 워터 물걸레청소기01.jpg",
+        "오비큠 워터 물걸레청소기02.jpg",
+        "오비큠 워터 물걸레청소기03.jpg"
+      ],
+      "option": [
+        {
+          "optionCate": "색상",
+          "optionVal": [
+            {
+              "optionName": "밀키화이트",
+              "optionPrice": 259000
+            },
+            {
+              "optionName": "마쉬멜로우",
+              "optionPrice": 259000
+            },
+            {
+              "optionName": "스노우화이트",
+              "optionPrice": 259000
+            }
+          ]
+        }
+      ],
+      "id": "znM1asC"
+    },
+    {
+      "category": "가구",
+      "subject": "드레스덴 정품 호텔식 침대프레임",
+      "cost": "398000",
+      "price": "149000",
+      "delivery": "45000",
+      "content": "",
+      "contentImage": "드레스덴 정품 호텔식 침대프레임_상세페이지.jpg",
+      "Image": [
+        "드레스덴 정품 호텔식 침대프레임01.jpg",
+        "드레스덴 정품 호텔식 침대프레임02.jpg",
+        "드레스덴 정품 호텔식 침대프레임03.jpg",
+        "드레스덴 정품 호텔식 침대프레임04.jpg"
+      ],
+      "option": [
+        {
+          "optionCate": "사이즈",
+          "optionVal": [
+            {
+              "optionName": "SS 무헤드형 프레임(헤드없음)",
+              "optionPrice": 149000
+            },
+            {
+              "optionName": "SS 일반헤드형 프레임(높이920)",
+              "optionPrice": 199000
+            },
+            {
+              "optionName": "SS 높은헤드형 프레임(높이1100)",
+              "optionPrice": 209000
+            },
+            {
+              "optionName": "Q/K 무헤드형 프레임(헤드없음)",
+              "optionPrice": 219000
+            },
+            {
+              "optionName": "Q/K 일반헤드형 프레임(높이920)",
+              "optionPrice": 299000
+            },
+            {
+              "optionName": "Q/K 높은헤드형 프레임(높이1100)",
+              "optionPrice": 309000
+            }
+          ]
+        },
+        {
+          "optionCate": "추가상품 (선택)",
+          "optionVal": [
+            {
+              "optionName": "조명 패널 일반헤드형(높이920)",
+              "optionPrice": 89000
+            },
+            {
+              "optionName": "조명 패널 높은헤드형(높이1100)",
+              "optionPrice": 99000
+            }
+          ]
+        }
+      ],
+      "id": "RjSAtvZ"
+    },
+    {
+      "category": "가구",
+      "subject": "알렉사 레귤러 철제 선반 진열장",
+      "cost": "109000",
+      "price": "69900",
+      "delivery": "무료배송",
+      "content": "",
+      "contentImage": "알렉사 레귤러 철제 선반 진열장_상세페이지.jpg",
+      "Image": [
+        "알렉사 레귤러 철제 선반 진열장01.jpg",
+        "알렉사 레귤러 철제 선반 진열장02.jpg",
+        "알렉사 레귤러 철제 선반 진열장03.jpg",
+        "알렉사 레귤러 철제 선반 진열장04.jpg"
+      ],
+      "option": [
+        {
+          "optionCate": "가로사이즈",
+          "optionVal": [
+            {
+              "optionName": "500",
+              "optionPrice": 69900
+            },
+            {
+              "optionName": "650",
+              "optionPrice": 79900
+            },
+            {
+              "optionName": "800",
+              "optionPrice": 89900
+            },
+            {
+              "optionName": "1000",
+              "optionPrice": 99900
+            }
+          ]
+        }
+      ],
+      "id": "TfIhR6g"
+    },
+    {
+      "category": "패브릭",
+      "subject": "헤링본 워셔블 사이잘룩 사계절 러그 카페트",
+      "cost": "14900",
+      "price": "8900",
+      "delivery": "무료배송",
+      "content": "",
+      "contentImage": "헤링본 워셔블 사이잘룩 사계절 러그 카페트_상세페이지.jpg",
+      "Image": [
+        "헤링본 워셔블 사이잘룩 사계절 러그 카페트01.jpg",
+        "헤링본 워셔블 사이잘룩 사계절 러그 카페트02.jpg",
+        "헤링본 워셔블 사이잘룩 사계절 러그 카페트03.jpg",
+        "헤링본 워셔블 사이잘룩 사계절 러그 카페트04.jpg",
+        "헤링본 워셔블 사이잘룩 사계절 러그 카페트05.jpg"
+      ],
+      "option": [
+        {
+          "optionCate": "색상",
+          "optionVal": [
+            {
+              "optionName": "브라운",
+              "optionPrice": 8900
+            },
+            {
+              "optionName": "실버그레이",
+              "optionPrice": 8900
+            },
+            {
+              "optionName": "다크그레이",
+              "optionPrice": 8900
+            },
+            {
+              "optionName": "베이지",
+              "optionPrice": 8900
+            },
+            {
+              "optionName": "네이비",
+              "optionPrice": 8900
+            }
+          ]
+        },
+        {
+          "optionCate": "사이즈",
+          "optionVal": [
+            {
+              "optionName": "50X90",
+              "optionPrice": 0
+            },
+            {
+              "optionName": "60X180",
+              "optionPrice": 5900
+            },
+            {
+              "optionName": "80X220",
+              "optionPrice": 13000
+            },
+            {
+              "optionName": "100X150",
+              "optionPrice": 18900
+            },
+            {
+              "optionName": "200X250",
+              "optionPrice": 34000
+            }
+          ]
+        }
+      ],
+      "id": "ySzXAQX"
+    },
+    {
+      "category": "패브릭",
+      "subject": "도톰 레이스 쉬폰커튼",
+      "cost": "23400",
+      "price": "16800",
+      "delivery": "3000",
+      "content": "",
+      "contentImage": "도톰 레이스 쉬폰커튼_상세페이지.jpg",
+      "Image": [
+        "도톰 레이스 쉬폰커튼01.jpg",
+        "도톰 레이스 쉬폰커튼02.jpg",
+        "도톰 레이스 쉬폰커튼03.jpg",
+        "도톰 레이스 쉬폰커튼04.jpg"
+      ],
+      "option": [
+        {
+          "optionCate": "컬러",
+          "optionVal": [
+            {
+              "optionName": "화이트",
+              "optionPrice": 16800
+            },
+            {
+              "optionName": "퍼플",
+              "optionPrice": 16800
+            },
+            {
+              "optionName": "연피치",
+              "optionPrice": 16800
+            },
+            {
+              "optionName": "블랙",
+              "optionPrice": 16800
+            }
+          ]
+        },
+        {
+          "optionCate": "사이즈",
+          "optionVal": [
+            {
+              "optionName": "나비주름형 160",
+              "optionPrice": 0
+            },
+            {
+              "optionName": "나비주름형 160~250",
+              "optionPrice": 13000
+            },
+            {
+              "optionName": "나비주름형 251~260",
+              "optionPrice": 14000
+            }
+          ]
+        }
+      ],
+      "id": "8Q44zrb"
+    },
+    {
+      "category": "주방용품",
+      "subject": "304올스텐 2단식기건조대",
+      "cost": "69800",
+      "price": "59800",
+      "delivery": "무료배송",
+      "content": "",
+      "contentImage": "304올스텐 2단식기건조대_상세페이지.jpg",
+      "Image": [
+        "304올스텐 2단식기건조대01.jpg",
+        "304올스텐 2단식기건조대02.jpg",
+        "304올스텐 2단식기건조대03.jpg",
+        "304올스텐 2단식기건조대04.jpg"
+      ],
+      "option": [
+        {
+          "optionCate": "추가상품 (선택)",
+          "optionVal": [
+            {
+              "optionName": "수세미거치대",
+              "optionPrice": 12900
+            },
+            {
+              "optionName": "올스텐 수저통",
+              "optionPrice": 5900
+            }
+          ]
+        }
+      ],
+      "id": "V6Bebgi"
+    },
+    {
+      "category": "주방용품",
+      "subject": "싱크대에 밀착하는 세균없는 스텐도마",
+      "cost": "25900",
+      "price": "21900",
+      "delivery": "무료배송",
+      "content": "",
+      "contentImage": "싱크대에 밀착하는 세균없는 스텐도마_상세페이지.jpg",
+      "Image": [
+        "싱크대에 밀착하는 세균없는 스텐도마01.jpg",
+        "싱크대에 밀착하는 세균없는 스텐도마02.jpg",
+        "싱크대에 밀착하는 세균없는 스텐도마03.jpg",
+        "싱크대에 밀착하는 세균없는 스텐도마04.jpg"
+      ],
+      "option": [],
+      "id": "vR1MIyB"
+    },
+    {
+      "category": "데코·식물",
+      "subject": "나의 마음 달래주는 감성 공기정화식물",
+      "cost": "28700",
+      "price": "17900",
+      "delivery": "무료배송",
+      "content": "",
+      "contentImage": "나의 마음 달래주는 감성 공기정화식물_상세이미지.jpg",
+      "Image": [
+        "나의 마음 달래주는 감성 공기정화식물01.jpg",
+        "나의 마음 달래주는 감성 공기정화식물02.jpg",
+        "나의 마음 달래주는 감성 공기정화식물03.jpg",
+        "나의 마음 달래주는 감성 공기정화식물04.jpg"
+      ],
+      "option": [
+        {
+          "optionCate": "식물",
+          "optionVal": [
+            {
+              "optionName": "오렌지쟈스민",
+              "optionPrice": 19900
+            },
+            {
+              "optionName": "몬스테라 소형",
+              "optionPrice": 24000
+            },
+            {
+              "optionName": "홍콩야자 소형",
+              "optionPrice": 16900
+            },
+            {
+              "optionName": "마오리 소포라 소형 ",
+              "optionPrice": 21000
+            },
+            {
+              "optionName": "테이블야자 소형",
+              "optionPrice": 24000
+            },
+            {
+              "optionName": "아레카야자 소형",
+              "optionPrice": 21000
+            }
+          ]
+        }
+      ],
+      "id": "Cd-CAeP"
+    },
+    {
+      "category": "조명",
+      "subject": "플로어 장스탠드 150 무드 램프",
+      "cost": "85000",
+      "price": "52400",
+      "delivery": "3000",
+      "content": "",
+      "contentImage": "플로어 장스탠드 150 무드 램프_상세페이지.jpg",
+      "Image": [
+        "플로어 장스탠드 150 무드 램프01.jpg",
+        "플로어 장스탠드 150 무드 램프02.jpg",
+        "플로어 장스탠드 150 무드 램프03.jpg",
+        "플로어 장스탠드 150 무드 램프04.jpg"
+      ],
+      "option": [
+        {
+          "optionCate": "색상",
+          "optionVal": [
+            {
+              "optionName": "블랙",
+              "optionPrice": 52400
+            },
+            {
+              "optionName": "화이트",
+              "optionPrice": 52400
+            }
+          ]
+        }
+      ],
+      "id": "Ncv5mnF"
+    },
+    {
+      "category": "조명",
+      "subject": "브렐로 LED 인테리어 무드등 테이블 램프",
+      "cost": "60000",
+      "price": "44900",
+      "delivery": "3000",
+      "content": "",
+      "contentImage": "브렐로 LED 인테리어 무드등 테이블 램프_상세페이지.jpg",
+      "Image": [
+        "브렐로 LED 인테리어 무드등 테이블 램프01.jpg",
+        "브렐로 LED 인테리어 무드등 테이블 램프02.jpg",
+        "브렐로 LED 인테리어 무드등 테이블 램프03.jpg",
+        "브렐로 LED 인테리어 무드등 테이블 램프04.jpg"
+      ],
+      "option": [
+        {
+          "optionCate": "색상",
+          "optionVal": [
+            {
+              "optionName": "화이트",
+              "optionPrice": 44900
+            },
+            {
+              "optionName": "블랙",
+              "optionPrice": 44900
+            }
+          ]
+        }
+      ],
+      "id": "3Y-xF6K"
+    },
+    {
+      "category": "수납·정리",
+      "subject": "수비르 서랍장 슬라이딩 리빙박스 옷 수납 옷장 정리함",
+      "cost": "25800",
+      "price": "17900",
+      "delivery": "무료배송",
+      "content": "",
+      "contentImage": "수비르 서랍장 슬라이딩 리빙박스 옷 수납 옷장 정리함_상세페이지.jpg",
+      "Image": [
+        "수비르 서랍장 슬라이딩 리빙박스 옷 수납 옷장 정리함01.jpg",
+        "수비르 서랍장 슬라이딩 리빙박스 옷 수납 옷장 정리함02.jpg",
+        "수비르 서랍장 슬라이딩 리빙박스 옷 수납 옷장 정리함03.jpg",
+        "수비르 서랍장 슬라이딩 리빙박스 옷 수납 옷장 정리함04.jpg"
+      ],
+      "option": [
+        {
+          "optionCate": "사이즈",
+          "optionVal": [
+            {
+              "optionName": "중형 S",
+              "optionPrice": 25900
+            },
+            {
+              "optionName": "중형 M",
+              "optionPrice": 26900
+            },
+            {
+              "optionName": "중형 L",
+              "optionPrice": 28900
+            },
+            {
+              "optionName": "대형 S",
+              "optionPrice": 31900
+            },
+            {
+              "optionName": "대형 M",
+              "optionPrice": 33900
+            },
+            {
+              "optionName": "대형 L",
+              "optionPrice": 35900
+            }
+          ]
+        }
+      ],
+      "id": "e6ISyOc"
+    },
+    {
+      "category": "수납·정리",
+      "subject": "밀리 360도 회전 이동식 수납장 5단 트롤리",
+      "cost": "99000",
+      "price": "63900",
+      "delivery": "6000",
+      "content": "",
+      "contentImage": "밀리 360도 회전 이동식 수납장 5단 트롤리_상세페이지.jpg",
+      "Image": [
+        "밀리 360도 회전 이동식 수납장 5단 트롤리01.jpg",
+        "밀리 360도 회전 이동식 수납장 5단 트롤리02.jpg",
+        "밀리 360도 회전 이동식 수납장 5단 트롤리03.jpg",
+        "밀리 360도 회전 이동식 수납장 5단 트롤리04.jpg"
+      ],
+      "option": [
+        {
+          "optionCate": "색상",
+          "optionVal": [
+            {
+              "optionName": "아이보리",
+              "optionPrice": 63900
+            },
+            {
+              "optionName": "웜그레이",
+              "optionPrice": 63900
+            },
+            {
+              "optionName": "레몬옐로우",
+              "optionPrice": 63900
+            },
+            {
+              "optionName": "다크민트",
+              "optionPrice": 63900
+            },
+            {
+              "optionName": "오렌지",
+              "optionPrice": 63900
+            }
+          ]
+        }
+      ],
+      "id": "udEVu8N"
+    }
+  ],
+  "order": [
+    {
+      "category": "가구",
+      "subject": "드레스덴 정품 호텔식 침대프레임",
+      "delivery": "45000",
+      "totalprice": 194000,
+      "userName": "홍길동",
+      "userPhone": "01011112222",
+      "zonecode": "04338",
+      "address": "서울 용산구 신흥로 9",
+      "addressDetail": "",
+      "option": [
+        {
+          "option": "사이즈",
+          "basicPrice": 149000,
+          "optionName": "SS 무헤드형 프레임(헤드없음)",
+          "optionPrice": 149000,
+          "optionQuantity": 1
+        }
+      ],
+      "id": "nRpIIGh",
+      "orderId": "QatsAAN4OE"
+    },
+    {
+      "category": "가구",
+      "subject": "드레스덴 정품 호텔식 침대프레임",
+      "delivery": "45000",
+      "totalprice": 283000,
+      "userName": "홍길동",
+      "userPhone": "01011112222",
+      "zonecode": "14580",
+      "address": "경기 부천시 원미구 신흥로 173",
+      "addressDetail": "101호",
+      "option": [
+        {
+          "option": "사이즈",
+          "basicPrice": 149000,
+          "optionName": "SS 무헤드형 프레임(헤드없음)",
+          "optionPrice": 149000,
+          "optionQuantity": 1
+        },
+        {
+          "option": "추가상품 (선택)",
+          "basicPrice": 89000,
+          "optionName": "조명 패널 일반헤드형(높이920)",
+          "optionPrice": 89000,
+          "optionQuantity": 1
+        }
+      ],
+      "id": "ZmcNfSC"
+    },
+    {
+      "category": "가구",
+      "subject": "드레스덴 정품 호텔식 침대프레임",
+      "delivery": "45000",
+      "totalprice": 283000,
+      "userName": "홍길동",
+      "userPhone": "01011112222",
+      "zonecode": "14580",
+      "address": "경기 부천시 원미구 신흥로 173",
+      "addressDetail": "101호",
+      "option": [
+        {
+          "option": "사이즈",
+          "basicPrice": 149000,
+          "optionName": "SS 무헤드형 프레임(헤드없음)",
+          "optionPrice": 149000,
+          "optionQuantity": 1
+        },
+        {
+          "option": "추가상품 (선택)",
+          "basicPrice": 89000,
+          "optionName": "조명 패널 일반헤드형(높이920)",
+          "optionPrice": 89000,
+          "optionQuantity": 1
+        }
+      ],
+      "id": "2S00FPw",
+      "orderId": "J_j8Zkn_r4"
+    },
+    {
+      "category": "가구",
+      "subject": "드레스덴 정품 호텔식 침대프레임",
+      "delivery": "45000",
+      "totalprice": 194000,
+      "userName": "홍길동",
+      "userPhone": "01011112222",
+      "zonecode": "14580",
+      "address": "경기 부천시 원미구 신흥로 173",
+      "addressDetail": "",
+      "option": [
+        {
+          "option": "사이즈",
+          "basicPrice": 149000,
+          "optionName": "SS 무헤드형 프레임(헤드없음)",
+          "optionPrice": 149000,
+          "optionQuantity": 1
+        }
+      ],
+      "id": "5en8u1w",
+      "orderId": "FRcW5D71NZ"
+    }
+  ]
+}

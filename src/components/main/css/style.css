@@ -1,0 +1,66 @@
+#MainBanner{margin:30px auto;width:1200px}
+#MainBanner div{position:relative}
+#MainBanner img{width:100%;height:560px;border-radius:10px;object-fit:cover;filter:brightness(0.7)}
+#MainBanner h2{position:absolute;z-index:1;bottom:70px;left:50px;font-size:30px;font-weight:600;color:#fff}
+
+#Section01{margin:80px auto 0;width:1200px}
+#Section01 h2{font-size:20px;font-weight:600}
+#Section01 .cate-wrap, #Section01 .review-wrap{display:flex;gap:20px;margin-top:30px}
+#Section01 .cate-wrap > div a{display:flex;flex-direction:column;align-items:center;gap:7px}
+#Section01 .cate-wrap > div a h3{font-size:15px;font-weight:500}
+#Section01 .review{margin-top:60px}
+#Section01 .review-wrap > div{width:calc(100% / 3)}
+#Section01 .review-wrap > div img{width:100%;height:258px;border-radius:8px;object-fit:cover}
+#Section01 .review-wrap > div h3{margin:15px 0;font-size:17px;font-weight:600}
+#Section01 .review-wrap > div p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:15px;line-height:1.3;color:#666}
+
+#Section02{margin:80px auto;width:1200px}
+#Section02 h2{font-size:20px;font-weight:600}
+#Section02 .swiper-wrapper{margin-top:30px}
+#Section02 .swiper-slide img{width:100%;height:385px;object-fit:cover;border-radius:8px}
+#Section02 .swiper-slide h3{margin:15px 0 5px;font-size:15px}
+#Section02 .swiper-slide .price{display:flex;align-items:center;gap:5px;font-size:20px;font-weight:600}
+#Section02 .swiper-slide .price span{color:var(--primary);font-size:18px}
+#Section02 .swiper-slide .delivery{margin-top:5px;padding:8px 12px;width:max-content;font-size:12px;border-radius:4px;background-color:#f5f5f5}
+
+/* 반응형 [s] */
+@media (max-width:1200px){
+#MainBanner, #Section01, #Section02{width:95%}
+}
+@media (max-width:1024px){
+#MainBanner img{height:450px}
+#MainBanner h2{font-size:26px}
+#Section01 h2, #Section02 h2{font-size:18px}
+#Section01 .cate-wrap, #Section01 .review-wrap{gap:15px}
+#Section02 .swiper-slide img{height:330px}
+}
+@media (max-width:768px){
+#MainBanner img{height:400px}
+#MainBanner h2{bottom:50px;left:20px;font-size:24px}
+#Section01{margin-top:60px}
+#Section01 h2, #Section02 h2{text-align:center}
+#Section01 .cate-wrap{display:grid;grid-template-columns:repeat(4, 1fr)}
+#Section01 .review{margin-top:80px}
+#Section01 .review-wrap{flex-direction:column;gap:60px}
+#Section01 .review-wrap > div{width:100%}
+}
+@media (max-width:480px){
+#MainBanner img{height:350px}
+#MainBanner h2{bottom:40px;left:20px;font-size:21px}
+#Section01 h2, #Section02 h2{font-size:16px}
+#Section01 .cate-wrap img{width:55px}
+#Section01 .cate-wrap > div a h3{font-size:14px}
+#Section01 .review-wrap{gap:20px}
+#Section01 .review-wrap > div{position:relative}
+#Section01 .review-wrap > div img{height:330px;filter:brightness(0.5)}
+#Section01 .review-wrap > div > div{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);text-align:center;width:85%;}
+#Section01 .review-wrap > div h3{margin-top:0px;color:#fff}
+#Section01 .review-wrap > div p{color:rgb(255, 255, 255, 0.7)}
+#Section02{margin:60px auto}
+#Section02 .swiper-slide img{height:280px}
+#Section02 .swiper-slide h3{font-size:14px}
+#Section02 .swiper-slide .price{font-size:18px}
+#Section02 .swiper-slide .price span{font-size:16px}
+#Section02 .swiper-slide .delivery{padding:6px 10px;font-size:11px}
+}
+/* 반응형 [e] */

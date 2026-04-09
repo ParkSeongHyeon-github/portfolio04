@@ -1,0 +1,65 @@
+/* productview [s]*/
+#ProductView{position:fixed;z-index:1;top:0px;right:0px;width:100%;height:100%;background-color:rgb(0, 0, 0, 0.5)}
+#ProductView .close-btn{position:absolute;top:20px;right:20px;border:none;background-color:transparent}
+#ProductView > div{overflow-y:scroll;display:flex;flex-direction:column;align-items:center;position:absolute;top:50%;left:50%;padding:30px;width:1000px;height:650px;transform:translate(-50% ,-50%);border-radius:10px;background-color:#fff}
+#ProductView .top{display:flex;gap:30px; width:100%}
+#ProductView .top .left, #ProductView .top .right{width:50%}
+#ProductView .top .left img{width:100%;height:330px;object-fit:cover}
+#ProductView .top .right{padding:15px 0;}
+#ProductView .top .right .category{font-size:15px;color:#777;}
+#ProductView .top .right .subject{margin:12px 0 20px;padding-bottom:20px;font-size:20px;font-weight:600;border-bottom:1px solid #e1e1e1;}
+#ProductView .top .right ul li{display:flex;align-items:center;gap:10px;font-size:15px;}
+#ProductView .top .right ul li+li{margin-top:10px;}
+#ProductView .top .right ul li span{display:block;min-width:80px;height:30px;line-height:30px;text-align:center;font-size:14px;border:1px solid #e1e1e1;border-radius:20px;background-color:#f5f5f5}
+#ProductView .bottom{width:100%}
+#ProductView .item-wrap{margin-top:30px}
+#ProductView .item-wrap p{padding:12px;font-size:18px;font-weight:600;}
+#ProductView .item-wrap ul{display:grid;grid-template-columns:repeat(1, 1fr);row-gap:20px;padding:25px 20px;border-top:1px solid #e1e1e1;background-color:#f5f5f5}
+#ProductView .item-wrap ul li{display:flex;align-items:center;font-size:16px;color:#666;word-break:keep-all}
+#ProductView .item-wrap ul li span{display:block;;font-weight:500;color:#000}
+/* productview [e]*/ 
+
+/* 반응형 [s] */
+@media (max-width:1024px){
+#ProductView > div{width:750px}
+#ProductView .top .left img{height:250px}
+#ProductView .top .right .tit{font-size:18px}
+#ProductView .top .right .tit span{width:35px;height:35px;font-size:14px}
+#ProductView .top .right .subject, #ProductView .top .right .address{font-size:14px}
+#ProductView .top .right ul li{font-size:14px}
+#ProductView .item-wrap p{font-size:16px}
+#ProductView .item-wrap ul li{font-size:14px}
+#ProductView .item-wrap ul li span{min-width:90px}
+}
+@media (max-width:768px){
+#ProductView > div{padding:60px 30px 30px;width:580px}
+#ProductView .top{flex-direction:column;gap:40px}
+#ProductView .top .left, #ProductView .top .right{width:100%}
+#ProductView .close-btn{top:12px;right:12px}
+#ProductView .close-btn svg{width:24px;}
+#ProductView .item-wrap{margin-top:40px}
+#ProductView .item-wrap p{padding:12px 8px}
+#ProductView .item-wrap ul{padding:20px 8px}
+#ProductView .item-wrap ul li{font-size:13px}
+#ProductView .item-wrap ul li span{min-width:80px}
+#ProductView .admin-btn li button, #ProductView .admin-btn li a{height:50px;line-height:50px;font-size:14px}
+}
+@media (max-width:600px){
+#ProductView > div{padding:50px 2.5% 30px;width:420px}
+#ProductView .top .left img{height:225px}
+#ProductView .top .right .tit{font-size:17px}
+#ProductView .top .right .tit span{width:30px;height:30px;font-size:13px}
+#ProductView .top .right .subject, #ProductView .top .right .address{font-size:13px}
+#ProductView .top .right ul{margin-top:15px;padding-top:15px}
+#ProductView .top .right ul li{font-size:13px}
+#ProductView .item-wrap p{font-size:15px}
+#ProductView .item-wrap ul{grid-template-columns:repeat(1, 1fr)}
+}
+@media (max-width:480px){
+#ProductView > div{padding:50px 2.5% 30px;width:380px}
+#ProductView .admin-btn li button, #ProductView .admin-btn li a{height:45px;line-height:45px;font-size:13px}
+}
+@media (max-width:380px){
+#ProductView > div{padding:50px 2.5% 30px;width:350px}
+}
+/* 반응형 [e] */

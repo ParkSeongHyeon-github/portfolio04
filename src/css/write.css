@@ -1,0 +1,51 @@
+.write h1{padding:60px 0 30px;margin:auto;width:95%;font-size:25px;font-weight:700}
+.write form{margin:auto;width:95%;border-top:1px solid #111}
+.write form .item{position:relative;display:flex;border-bottom:1px solid #e1e1e1}
+.write form label, .label{display:flex;justify-content:center;align-items:center;padding:20px 0;min-width:170px;text-align:center;font-size:15px;font-weight:500;background-color:#f5f5f5}
+.write form .input{padding:0 20px 0 12px;margin:10px;height:40px;border:1px solid #e1e1e1;border-radius:2px;font-size:15px;color:#777;font-family:'notokr-regular'}
+.write form .input.half{width:calc(50% - 170px)}
+.write form .input.full{width:calc(100% - 170px)}
+.write form .input.file{padding:6px}
+.write form textarea.full{padding:12px;width:calc(100% - 170px);height:300px}
+.write form .cate div{display:flex;align-items:center}
+.write form .plus-btn, .write form .cate-minus-btn{display:flex;justify-content:center;align-items:center;padding:6px;position:absolute;top:50%;right:10px;transform:translateY(-50%);border:none;color:#fff;background-color:var(--primary);transition:all .3s}
+.write form .minus-btn{display:flex;justify-content:center;align-items:center;padding:5px;border:none;color:#fff;background-color:var(--primary);transition:all .3s}
+.write form .cate-minus-btn{right:45px}
+.write form .btn-wrap{display:flex;justify-content:center;align-items:center;gap:10px;padding-bottom:30px}
+.write form .submit-btn, .write form a{display:flex;justify-content:center;align-items:center;margin:30px auto 50px;width:185px;height:60px;border:none;border-radius:5px;font-size:15px;color:#fff;background-color:var(--primary);transition:all .3s}
+.write form a{width:90px;background-color:#a2a2a2}
+.write form a:hover{background-color:#b2b2b2}
+.write form .file-container{display:flex;align-items:center}
+
+.write form .plus-btn:hover, .write form .minus-btn:hover, .write form .cate-minus-btn:hover, .write form .submit-btn:hover{background-color:var(--hover)}
+
+/* 반응형 [s] */
+@media (max-width:1024px){
+.write h1{padding:50px 0 25px;font-size:23px}
+.write form label, .label{min-width:140px;font-size:14px}
+.write form .input.half{width:calc(50% - 140px)}
+.write form .input.full, .write form textarea.full{width:calc(100% - 140px)}
+}
+@media (max-width:768px){
+.write form .item{flex-direction:column}
+.write form .item + .item{margin-top:10px}
+.write form label, .label{width:100%;min-width:auto;justify-content:flex-start;padding:12px 15px}
+.write form .input, .write form textarea.full{width:100%;margin:10px 0;height:45px}
+.write form textarea.full{height:200px}
+.write form .input.half{width:100%}
+.write form .plus-btn, .write form .cate-minus-btn{top:69%}
+.write form .input.full, .write form textarea.full{width:100%}
+.write form .cate input:last-child{margin-right:0px !important}
+.write form .item div input{width:calc(100% - 30px);margin-right:14px}
+.write form .input.file{padding:10px;font-size:13px}
+.write form .file-container{flex-direction:column;justify-content:start;align-items:start}
+.write form .file-container div{padding:12px}
+.write form .file-container input{width:100% !important}
+#CategoryWrite .plus-btn{top:19px !important}
+}
+@media (max-width:480px){
+.write form .input{font-size:13px}
+.write form .submit-btn{width:160px;height:58px;font-size:14px}
+.write form a{width:80px;height:58px;font-size:14px}
+}
+/* 반응형 [e] */
