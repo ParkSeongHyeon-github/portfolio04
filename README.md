@@ -1,73 +1,84 @@
-# React + TypeScript + Vite
+# 쇼핑몰결제 및 관리자 페이지
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-----------------------------
 
-Currently, two official plugins are available:
+### 배포 URL
+https://portfolio04-q412.onrender.com/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+-----------------------------
 
-## React Compiler
+### 프로젝트 소개
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React(TypeScript) 기반으로 제작한 쇼핑몰 입니다.
 
-## Expanding the ESLint configuration
+사용자는 물품을 수량에 맞게 구매 할 수 있으며,
+토스 결제 API를 연동하여 실제 서비스와 유사한 결제 흐름을 구현했습니다.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+관리자는 관리자 페이지에서, 물품을 등록 할 수도 있으며, 
+상품 구매 내역을 확인 할 수 있습니다.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+-----------------------------
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 주요 기능
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+  ### 사용자 기능
+  - 상품 검색기능
+  - 카테고리별 물품 필터기능
+  - 물품 수량에 따른 구매기능
+  - 토스 결제 연동을 통한 결제 진행
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+  ### 관리자 기능
+  - 물품 및 옵션내용을 등록
+  - 상품 구매 정보 조회
+  - 상품 카테고리 사전 설정 기능
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+-----------------------------
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 기술 스택
+
+- **React (TypeScript)**  
+  → 상태 관리 및 동적 UI 구성
+
+- **React Router**  
+  → 상품 목록, 상세, 결제 페이지 이동 처리
+
+- **React Query (TanStack Query)**  
+  → 서버 상태 관리 및 데이터 캐싱 처리  
+  → 비동기 데이터 요청 상태 관리 최적화
+
+- **React Hook Form**  
+  → 회원정보 및 주문 폼 상태 관리  
+  → 입력값 검증 및 사용자 입력 최적화
+
+- **JSON Server**  
+  → 상품, 장바구니, 주문 데이터 관리
+
+- **토스 결제 API**  
+  → 실제 결제 흐름 구현
+
+-----------------------------
+
+### 주의사항
+
+- 상품 이미지 업로드 시 `public/img/cate and product` 폴더에 직접 추가해야 합니다.
+- 이미지 파일명은 반드시 `상품명01, 02, 03...` 형식으로 작성해야 정상 출력됩니다
+
+----------------------
+
+### 관리자 계정
+
+- ID: admin  
+- PW: a1234
+
+----------------------
+
+### 프로젝트를 통해 성장한 점
+
+- 상품 수량에 따라 가격이 실시간으로 변경되는 로직을 구현하며 상태 변화에 따른 데이터 계산 및 UI 업데이트 흐름을 경험했습니다.
+- React Query(TanStack Query)를 적용하여 서버 상태 관리와 데이터 캐싱을 경험했으며, 비동기 요청 상태를 보다 안정적으로 관리하는 방법을 학습했습니다.
+
+----------------------
+
+### 개선사항
+
+- 현재 관리자 한명이 직접 모든 상품을 관리하고 있는데, 쇼핑몰 특성상 각각의 업체가 따로 있기때문에, 각 업체에 대한 관리자 권한을 부여하고 해당 업체에 맞는 상품을 등록 및 조회가 가능하도록 개선해야 할 것 같다.
